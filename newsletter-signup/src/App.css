@@ -1,3 +1,29 @@
 body{
-  background-color: rgb(2, 2, 54);
+  background-color: rgb(41, 44, 48);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.white-card{
+  background-color: white;
+  height: 500px;
+  width: 800px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+
+}
+.pic{
+  width: 400px; 
+  height: 475px;
+  margin: 10px;
+  border-radius: 20px;
+  margin-right: 20px;
+}
+
+@media screen and (max-width:800px){
+  .white-card{
+    max-width: 300px;
+    height: 200px;
+  }
 }

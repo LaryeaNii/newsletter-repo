@@ -5,8 +5,9 @@ function App() {
  
 
   return (
-    <div>
-
+    <div className='white-card'>
+       <div><h2>Newsletter things</h2></div>
+       <img className='pic' src="./images/typewriter.jpg" alt="some keys" />
     </div>
      
   
