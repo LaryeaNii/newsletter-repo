@@ -56,7 +56,7 @@ function App() {
               <div className="bullet-points">
                 <img src="./images/icon-list.svg" alt="checkmark" />
                 <li>And much more!</li>
-              </div>
+              </div> 
             </ul>
 
             <form onSubmit={handleSubmit}>
@@ -70,7 +70,7 @@ function App() {
                   placeholder="email@company.com"
                   className={hasError ? 'error' : ''}
                 />
-                <button>Subscribe to monthly newsletter</button>
+                <button>Subscribe to the monthly newsletter</button>
               </div>
             </form>
           </div>
