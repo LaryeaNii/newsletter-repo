@@ -64,10 +64,15 @@ body{
 .email-container button{
   width: 374px;
   height: 50px;
+  font-weight: 600;
   background-color: rgb(4, 4, 36);
   color: white;
   margin-top: 10px;
 }
+.email-container button:hover{
+  background: linear-gradient(to right, rgb(241, 105, 127), rgb(235, 165, 35));
+}
+
 
 
 @media screen and (max-width:800px){
